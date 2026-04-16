@@ -34,10 +34,4 @@ The dataset contains around 200,000 news headlines collected between 2012 and 20
 
 ---
 
-## 🚀 How to Run
 
-```bash
-git clone https://github.com/tanaya-2005/Text-Classification-with-3-key-NLP-techniques.git
-cd Text-Classification-with-3-key-NLP-techniques
-pip install -r requirements.txt
-python your_script_name.py
