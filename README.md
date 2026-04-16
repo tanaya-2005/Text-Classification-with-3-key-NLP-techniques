@@ -1,9 +1,43 @@
-# Text-Classification-with-3-key-NLP-techniques
-Use Key NLP techniques to classify news articles into categories: Bag_of_Words (tf-Idf), word embeddings and BERT language model
+# 🧠 Text Classification using NLP Techniques
 
+This project demonstrates how to classify news headlines into different categories using key Natural Language Processing (NLP) techniques. It compares traditional and advanced methods to understand their effectiveness.
 
-The original project and work was published in towardscience [here](https://towardsdatascience.com/text-classification-with-nlp-tf-idf-vs-word2vec-vs-bert-41ff868d1794). Adaptation of the code was made with regards to the BERT language modeling part. The rest cames from the original author of this article.
+---
 
-The Dataset used can be found at Kaggle [here](https://www.kaggle.com/rmisra/news-category-dataset). This dataset contains around 200k news headlines from the year 2012 to 2018 obtained from HuffPost. Each news headline has a corresponding category (politics, entertainement, science,...). There are 30 categories in total.
+## 📌 Overview
 
+Text classification is the process of assigning categories to text data. In this project, news headlines are categorized into topics such as politics, business, sports, and entertainment.
 
+---
+
+## 📂 Dataset
+
+The dataset contains around 200,000 news headlines collected between 2012 and 2018. Each headline is labeled with one of 30 categories.
+
+---
+
+## ⚙️ Techniques Used
+
+- **Bag of Words (BoW)** – Converts text into word frequency vectors  
+- **TF-IDF** – Weighs words based on importance  
+- **Word Embeddings** – Captures semantic meaning of words  
+- **BERT** – Advanced model that understands context  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- NumPy, Pandas  
+- Scikit-learn  
+- NLP & Transformer libraries  
+
+---
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/tanaya-2005/Text-Classification-with-3-key-NLP-techniques.git
+cd Text-Classification-with-3-key-NLP-techniques
+pip install -r requirements.txt
+python your_script_name.py
